@@ -1,12 +1,13 @@
-const fs = require("fs");
 module.exports.config = {
 	name: "Reply",
-    version: "1.1.1",
-	hasPermssion: 0,
-	credits: "John Lester", 
-	description: "Just Respond",
-	commandCategory: "no prefix",
-    cooldowns: 5, 
+	version: "1.0.2",
+	permission: 2,
+	credits: "nayan",
+	prefix: false,
+	description: "",
+	category: "without prefix",
+	usages: "[tag]",
+	cooldowns: 5
 };
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
