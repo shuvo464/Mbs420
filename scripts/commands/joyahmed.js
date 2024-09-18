@@ -1,9 +1,9 @@
 module.exports.config = {
-	name: "Joy Ahmed",
+	name: "joyahmed",
 	version: "1.0.2",
 	permission: 2,
 	credits: "nayan",
-	prefix: false,
+	prefix: true,
 	description: "",
 	category: "without prefix",
 	usages: "[tag]",
